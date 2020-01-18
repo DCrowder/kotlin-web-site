@@ -25,8 +25,8 @@ Kotlin's type system is aimed to eliminate `NullPointerException`'s from our cod
   * Generic types used for Java interoperation with incorrect nullability, e.g. a piece of Java code might add `null` into a Kotlin `MutableList<String>`, meaning that `MutableList<String?>` should be used for working with it;
   * Other issues caused by external Java code.
 
-In Kotlin, the type system distinguishes between references that can hold *null*{: .keyword } (nullable references) and those that can not (non-null references).
-For example, a regular variable of type `String` can not hold *null*{: .keyword }:
+In Kotlin, the type system distinguishes between references that can hold *null*{: .keyword } (nullable references) and those that cannot (non-null references).
+For example, a regular variable of type `String` cannot hold *null*{: .keyword }:
 
 <div class="sample" markdown="1" theme="idea">
 ```kotlin
